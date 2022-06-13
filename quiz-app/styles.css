@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    /* important stuff, set min height to 100 
+    vh */
+    /* margin: 0%; */
+}
+/* background-color #20bf55;
+background-image linear-gradient(315deg, #20bf55 0%, #01baef 74%); */
+.quiz-container {
+    background-color: white;
+    /* padding: 40px; */
+    /* height: fit-content; */
+    /* margin-top: 0.3vh; */
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    overflow: hidden;
+    /* if anything overflows, can hide it with this , so that the css effect shows on the overflown element as well */
+}
+.quiz-header {
+    padding: 2rem;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    /* padding-top: 104px; */
+
+}
+li {
+    /* cursor: pointer; */
+
+    padding: 2px 0;
+    font-size: 1.1rem;
+}
+ul li label {
+    cursor: pointer;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+}
+input:hover {
+    cursor: pointer;
+}
+button {
+    background-color: rgb(156, 28, 156);
+    color: white;
+    font-family: inherit;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-weight: 600;
+    font-size:1.5rem;
+    border: none;
+    /* border-radius: inherit; */
+    transition: 0.2s;
+}
+button:hover {
+    background-color: purple;
+    cursor: pointer;
+}
+/* button:focus {
+    background-color: rgb(75, 8, 75);
+} */
