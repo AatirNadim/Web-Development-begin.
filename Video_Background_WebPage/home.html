@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moor and Mont</title>
+    <link rel="stylesheet" href="videoBG.css">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">
+                Travels and Trundles
+            </h2>
+            <div class="toggle">
+                <!-- either a hamburger menu or a close button -->
+
+            </div>
+        </header>
+        <video src="video.mp4" muted loop autoplay type="video/mp4"></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Never stop</h2>
+            <h3>Exploring the word</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, aliquid error at sint asperiores sunt temporibus provident laudantium! Ipsa, odit!</p>
+            <a href="#">Explore</a>
+        </div>
+        
+
+        <ul class="social">
+            <li>
+                <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="FaceBook"></a>
+            </li>
+            <li>
+                <a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="Twitter"></a>
+            </li>
+            <li>
+                <a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="Instagram"></a>
+            </li>
+        </ul>
+
+
+
+    </section>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">News</a>
+            </li>
+            <li>
+                <a href="#">Destination</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        
+    </div>
+
+
+    <script>
+        const menuToggle=document.querySelector('.toggle');
+        const showcase=document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('activi');
+            showcase.classList.toggle('activi');
+
+
+
+        })
+
+
+    </script>
+
+</body>
+</html>
